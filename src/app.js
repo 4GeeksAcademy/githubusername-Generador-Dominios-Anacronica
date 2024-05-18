@@ -1,11 +1,14 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+const pronouns = ["the", "our"];
+const adjectives = ["great", "big"];
+const nouns = ["jogger", "racoon"];
+const dominios = [".net", ".com", ".es"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+pronouns.forEach(pronoun => {
+  adjectives.forEach(adjective => {
+    nouns.forEach(noun => {
+      dominios.forEach(domi => {
+        //console.log(pronoun + adjective + noun + domi);
+      });
+    });
+  });
+});
